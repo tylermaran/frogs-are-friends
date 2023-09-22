@@ -1,4 +1,4 @@
-# Untitled Space Game
+# That asteroid keeps getting bigger
 
 ![early screenshot](image.png)
 
