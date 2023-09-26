@@ -32,8 +32,10 @@
 
 ## Species
 
+I like the idea of having multiple different species to play as. Definitely going to focus on humans for the first launch, but want to have a competing terraforming aspect at some point. 
+
 - Humans
-  - Normal humans. Need agriculture and normal temperature ranges.
+  - Normal humans. Need agriculture, water, and 255 - 310k temperature ranges.
 - Siku
   - Live on the icy planets. Eat methane or some other hydrocarbon.
 - Mercs
