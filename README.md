@@ -28,6 +28,7 @@
 ## Resource Gathering
 
 - I want to have slightly more resource options than ogame (which had metal, crystal, deuterium). I think there should at least be: [iron, titanium, uranium, lithium, silicone, hydrocarbons, methane, etc.]. With each planet having comparatively higher / lower quantities of each.
+- Thoughts on technical side of resource management: https://github.com/tylermaran/frogs-are-friends/issues/1
 
 ## Species
 
@@ -51,7 +52,7 @@
 
 ## Combat
 
-- Gonna take a lot of work. Ideally there is ground and space combat. You can fight for control of a planet, or to defend a planet from an interstellar attack
+- Gonna take a lot of work. Ideally there is ground and space combat. You can fight for control of a planet, or to defend a planet from an interstellar attack. Probably going to figure out all the resource management stuff before we get into this.
 
 ## Planets
 
@@ -60,3 +61,9 @@
 - An earthlike planet will be 64 fields. And a mars will be 32 fields (since earth is roughly 2x the size of mars). An earth size moon would be 8 (1/8th the size of earth)
 - The 256 / 512s will be reserved for the gas giants.
 - The 2-8 range will be moons and asteroids
+
+Thinking that a planet overview will look something like the below: 
+- Planet with 32 fields. Each field will support some amount of resource production / population.
+- You can expand into adjacent fields with ground vehicles, or skip over fields with some air transporation.
+- The planet wraps. This is a Robinson projection. You should be able to move from Field 1 to Field 8, likewise you could  move top to bottom (i.e. over the poles)
+![image](https://github.com/tylermaran/frogs-are-friends/assets/30934424/71823004-ae1e-4285-9f07-5fe06f47dc33)
