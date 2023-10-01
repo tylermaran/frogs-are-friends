@@ -16,6 +16,8 @@ pub struct App {
     pub food_production: u8,
     // Energy Production
     pub energy_production: u8,
+    // Text input
+    pub input: String,
 }
 
 impl Default for App {
@@ -26,6 +28,7 @@ impl Default for App {
             metal_production: 0,
             food_production: 0,
             energy_production: 0,
+            input: String::new(),
         }
     }
 }
