@@ -25,9 +25,9 @@ impl Default for App {
         Self {
             running: true,
             counter: 0,
-            metal_production: 0,
-            food_production: 0,
-            energy_production: 0,
+            metal_production: 12,
+            food_production: 14,
+            energy_production: 28,
             input: String::new(),
         }
     }

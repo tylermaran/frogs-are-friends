@@ -39,7 +39,7 @@ pub fn render<B: Backend>(app: &mut App, frame: &mut Frame<'_, B>) {
                 .borders(Borders::ALL)
                 .border_type(BorderType::Plain),
         )
-        .style(Style::default().fg(Color::Green))
+        .style(Style::default().fg(Color::Green).bg(Color::Black))
         .alignment(Alignment::Left),
         chunks[0],
     );
@@ -47,7 +47,7 @@ pub fn render<B: Backend>(app: &mut App, frame: &mut Frame<'_, B>) {
     // Input field
     let input_area = chunks[1];
     let input_text = Paragraph::new(app.input.as_ref() as &str)
-        .style(Style::default().fg(Color::Green))
+        .style(Style::default().fg(Color::Green).bg(Color::Black))
         .block(Block::default().borders(Borders::ALL).title("Input"));
     frame.render_widget(input_text, input_area);
 }

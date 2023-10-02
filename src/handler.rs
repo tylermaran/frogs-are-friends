@@ -1,6 +1,19 @@
 use crate::app::{App, AppResult};
 use crossterm::event::{KeyCode, KeyEvent, KeyModifiers};
 
+pub fn handle_input_command(app: &mut App) {
+    match app.input.trim() {
+        "upgrade" => {
+            app.metal_production += 1;
+            println!("Upgraded! Current level: {}", app.metal_production);
+        }
+        // You can handle other commands here...
+        _ => {
+            println!("Unknown command: {}", app.input);
+        }
+    }
+}
+
 /// Handles the key events and updates the state of [`App`].
 pub fn handle_key_events(key_event: KeyEvent, app: &mut App) -> AppResult<()> {
     match key_event.code {
@@ -26,6 +39,7 @@ pub fn handle_key_events(key_event: KeyEvent, app: &mut App) -> AppResult<()> {
             app.input.pop();
         }
         KeyCode::Enter => {
+            handle_input_command(app);
             app.input.clear();
         }
         // Apparently we need the below (kinda like a default)
