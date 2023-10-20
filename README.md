@@ -59,6 +59,7 @@ I like the idea of having multiple different species to play as. Definitely goin
 
 ## Planets
 
+- Hexagons: https://www.redblobgames.com/grids/hexagons/
 - Sizing:
 - Each planet will have a number of fields. Thinking this will be powers of 2. So 2, 4, 6, 8, 16, 32, 64, 128, 256, 512.
 - An earthlike planet will be 64 fields. And a mars will be 32 fields (since earth is roughly 2x the size of mars). An earth size moon would be 8 (1/8th the size of earth)
