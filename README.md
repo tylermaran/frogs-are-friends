@@ -1,6 +1,6 @@
 # That asteroid keeps getting bigger
 
-![image](https://github.com/tylermaran/frogs-are-friends/assets/30934424/0768f7e0-fa12-445a-8024-1121ae63c513)
+![image](https://github.com/tylermaran/terminus/assets/30934424/e51f9bd3-27b4-41df-ae17-cd3ef054d01f)
 
 
 ## Libraries
