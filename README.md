@@ -1,7 +1,7 @@
 # That asteroid keeps getting bigger
 
-![image](https://github.com/tylermaran/terminus/assets/30934424/e51f9bd3-27b4-41df-ae17-cd3ef054d01f)
-
+![image](https://github.com/tylermaran/terminus/assets/30934424/622ed9ca-81ee-4e65-be2e-5f87150a5fd5)
+(general UI idea)
 
 ## Libraries
 
@@ -71,3 +71,7 @@ Thinking that a planet overview will look something like the below:
 - You can expand into adjacent fields with ground vehicles, or skip over fields with some air transporation.
 - The planet wraps. This is a Robinson projection. You should be able to move from Field 1 to Field 8, likewise you could  move top to bottom (i.e. over the poles)
 ![image](https://github.com/tylermaran/frogs-are-friends/assets/30934424/71823004-ae1e-4285-9f07-5fe06f47dc33)
+
+
+## Ship concept
+![image](https://github.com/tylermaran/terminus/assets/30934424/e51f9bd3-27b4-41df-ae17-cd3ef054d01f)
